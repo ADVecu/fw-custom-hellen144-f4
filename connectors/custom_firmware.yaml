@@ -1,0 +1,107 @@
+meta: config/boards/hellen_mm100_meta.h
+
+pins:
+  - pin: A1
+    meta: MM100_IGN1
+    class: outputs
+    ts_name: A1 - Coil 1
+
+  - pin: A2
+    meta: MM100_IGN2
+    class: outputs
+    ts_name: A2 - Coil 2
+
+  - pin: A3
+    meta: MM100_IGN3
+    class: outputs
+    ts_name: A3 - Coil 3
+
+  - pin: A4
+    meta: MM100_INJ5
+    class: outputs
+    ts_name: A4 - Tach Output 
+
+  - pin: B1
+    meta: MM100_INJ4
+    class: outputs
+    ts_name: B1 - LS Output 1 / Injector 4
+
+  - pin: B2
+    meta: MM100_IN_IAT_ANALOG
+    class: analog_inputs
+    ts_name: B2 - IAT
+
+  - pin: B3
+    meta: MM100_IN_CLT_ANALOG
+    class: analog_inputs
+    ts_name: B3 - CLT
+
+  - pin: B4
+    meta: MM100_IN_MAP1_ANALOG
+    class: analog_inputs
+    ts_name: B4 - MAP Input
+
+  - pin: C1
+    meta: MM100_INJ3
+    class: outputs
+    ts_name: C1 - Injector 3
+
+  - pin: C2
+    meta: MM100_IN_TPS_ANALOG
+    class: analog_inputs
+    ts_name: C2 - TPS
+
+  - pin: C3
+    meta: MM100_IN_O2S_ANALOG
+    class: analog_inputs
+    ts_name: C3 - Aux Analog Input 1
+  
+  - pin: C4
+    meta: MM100_IN_O2S2_ANALOG
+    class: analog_inputs
+    ts_name: C4 - Aux Analog Input 2
+
+  - pin: D1
+    meta: MM100_INJ2
+    class: outputs
+    ts_name: D1 - Injector 2
+
+  - pin: D2
+    meta: MM100_IN_D2
+    class: switch_inputs
+    ts_name: D2 - Digital Input 1
+  
+  - pin: D3
+    meta: MM100_IN_D3
+    class: switch_inputs
+    ts_name: D3 - Digital Input 2
+
+  - pin: D4
+    meta: MM100_IN_D4
+    class: switch_inputs
+    ts_name: D4 - Digital Input 3
+
+  - pin: E1
+    meta: MM100_INJ1
+    class: outputs
+    ts_name: E1 - Injector 1
+
+  - pin: E3
+    meta: MM100_IN_D1
+    class: event_inputs
+    ts_name: E3 - CMP 1 / HALL Input
+
+  - pin: F2
+    meta: MM100_UART8_TX
+    class: event_inputs
+    ts_name: F2 - Trigger Input
+
+  - pin: G3
+    meta: MM100_OUT_PWM1
+    class: outputs
+    ts_name: G3 - LS Output 2
+
+  - pin: G4
+    meta: MM100_OUT_PWM2
+    class: outputs
+    ts_name: G4 - LS Output 3
