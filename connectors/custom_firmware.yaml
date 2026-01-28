@@ -107,11 +107,11 @@ pins:
     ts_name: G4 - LS Output 2
   
   - pin: H1
-    meta: MM100_INJ5
+    meta: MM100_INJ6
     class: outputs
     ts_name: A3 - LS Output 3
   
   - pin: H2
-    meta: MM100_INJ6
+    meta: MM100_INJ7
     class: outputs
     ts_name: D4 - LS Output 4
