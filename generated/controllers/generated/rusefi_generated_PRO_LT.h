@@ -1557,7 +1557,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3672285567
+#define SIGNATURE_HASH 2642502225
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1918,7 +1918,7 @@
 #define ts_show_air_conditioning true
 #define ts_show_alternator true
 #define ts_show_analog_diag false
-#define ts_show_analog_divider true
+#define ts_show_analog_divider false
 #define ts_show_analog_ego true
 #define ts_show_analog_input_settings true
 #define ts_show_analog_o2 true
@@ -1932,9 +1932,9 @@
 #define ts_show_brake_pedal_pin true
 #define ts_show_cam1 true
 #define ts_show_cam2 true
-#define ts_show_can2 true
+#define ts_show_can2 false
 #define ts_show_can_bitrate true
-#define ts_show_can_pins true
+#define ts_show_can_pins false
 #define ts_show_can_verbose true
 #define ts_show_can_wbo true
 #define ts_show_can_wbo_type true
@@ -1942,7 +1942,7 @@
 #define ts_show_charge_estimation true
 #define ts_show_check_engine false
 #define ts_show_clt true
-#define ts_show_clt_iat_pullup true
+#define ts_show_clt_iat_pullup false
 #define ts_show_clutch_down true
 #define ts_show_clutch_down_pin true
 #define ts_show_clutch_up true
@@ -1954,9 +1954,9 @@
 #define ts_show_console_settings true
 #define ts_show_cranking_rpm true
 #define ts_show_crankingTpsCurve true
-#define ts_show_cylinder_10 true
-#define ts_show_cylinder_11 true
-#define ts_show_cylinder_12 true
+#define ts_show_cylinder_10 false
+#define ts_show_cylinder_11 false
+#define ts_show_cylinder_12 false
 #define ts_show_cylinder_2 true
 #define ts_show_cylinder_3 true
 #define ts_show_cylinder_4 true
@@ -1964,7 +1964,7 @@
 #define ts_show_cylinder_6 true
 #define ts_show_cylinder_7 true
 #define ts_show_cylinder_8 true
-#define ts_show_cylinder_9 true
+#define ts_show_cylinder_9 false
 #define ts_show_cylinder_bank true
 #define ts_show_cylinder_trim_1 true
 #define ts_show_cylinder_trim_2 true
@@ -1973,11 +1973,11 @@
 #define ts_show_disable_etb false
 #define ts_show_ecu_stimulator true
 #define ts_show_ego2 true
-#define ts_show_egt true
+#define ts_show_egt false
 #define ts_show_enableKnockSpectrogram true
 #define ts_show_engine_code true
 #define ts_show_engine_make true
-#define ts_show_etb true
+#define ts_show_etb false
 #define ts_show_etb_bias_curve true
 #define ts_show_etb_extra_monitoring 
 #define ts_show_etb_frequency true
@@ -2033,9 +2033,9 @@
 #define ts_show_gppwm_2 true
 #define ts_show_gppwm_3 true
 #define ts_show_gppwm_4 true
-#define ts_show_hardware_simulator true
+#define ts_show_hardware_simulator false
 #define ts_show_hbridge_function true
-#define ts_show_hd true
+#define ts_show_hd false
 #define ts_show_iat true
 #define ts_show_idle_hardware true
 #define ts_show_ign_key_analog_input false
@@ -2063,7 +2063,7 @@
 #define ts_show_live_data true
 #define ts_show_long_term_fuel_trim false
 #define ts_show_maf true
-#define ts_show_main_relay true
+#define ts_show_main_relay false
 #define ts_show_main_relay_microRusEFI_message false
 #define ts_show_map_averaging_enabled true
 #define ts_show_map_estimate true
@@ -2083,15 +2083,15 @@
 #define ts_show_primary_trigger true
 #define ts_show_reboot_to_dfu true
 #define ts_show_reset_calibrations true
-#define ts_show_rotary true
+#define ts_show_rotary false
 #define ts_show_sd_card true
-#define ts_show_sd_pins true
+#define ts_show_sd_pins false
 #define ts_show_second_bank true
 #define ts_show_sent true
 #define ts_show_software_knock false
 #define ts_show_sparkHardwareLatencyCorrection true
 #define ts_show_speedo_settings true
-#define ts_show_spi true
+#define ts_show_spi false
 #define ts_show_spi1_enable true
 #define ts_show_spi1_pins true
 #define ts_show_spi2_enable true
@@ -2108,7 +2108,7 @@
 #define ts_show_start_button true
 #define ts_show_starter_disable true
 #define ts_show_startup_map_baro_grab true
-#define ts_show_status_leds true
+#define ts_show_status_leds false
 #define ts_show_stepper_hbridge true
 #define ts_show_stepper_push_pull false
 #define ts_show_strokes true
@@ -2119,7 +2119,7 @@
 #define ts_show_tle8888 false
 #define ts_show_top_level_can_menu true
 #define ts_show_torque_model true
-#define ts_show_tps2 true
+#define ts_show_tps2 false
 #define ts_show_tps_sent false
 #define ts_show_trigger_advanced true
 #define ts_show_trigger_console true
@@ -2133,7 +2133,7 @@
 #define ts_show_useNoiselessTriggerDecoder true
 #define ts_show_useRunningMathForCranking true
 #define ts_show_useSeparateVeForIdle true
-#define ts_show_vbatt true
+#define ts_show_vbatt false
 #define ts_show_ve_blend true
 #define ts_show_ve_table_map true
 #define ts_show_veBlends2 true
@@ -2144,7 +2144,7 @@
 #define ts_show_virtual_dyno false
 #define ts_show_vr_threshold_2 false
 #define ts_show_vr_threshold_all false
-#define ts_show_vr_threshold_pins true
+#define ts_show_vr_threshold_pins false
 #define ts_show_vvl_control true
 #define ts_show_vvt_output true
 #define ts_show_vvt_output_pin true
@@ -2152,7 +2152,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2026.01.28.PRO_LT.3672285567"
+#define TS_SIGNATURE "rusEFI main.2026.01.28.PRO_LT.2642502225"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
