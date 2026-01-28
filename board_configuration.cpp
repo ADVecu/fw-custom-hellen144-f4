@@ -2,6 +2,7 @@
 #include "hellen_meta.h"
 #include "defaults.h"
 #include "board_overrides.h"
+#include "hellen_leds_100.cpp"
 
 static void customBoardDefaultConfiguration() {
     setHellenVbatt();
