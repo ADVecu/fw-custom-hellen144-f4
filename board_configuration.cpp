@@ -8,7 +8,7 @@ static void customBoardDefaultConfiguration() {
     setHellenVbatt();
     setHellenCan();
     setDefaultHellenAtPullUps();
-    hellenMegaSdWithAccelerometer();
+    //hellenMegaSdWithAccelerometer();
     setHellenMegaEnPin();
     setHellenMMbaro();
 
