@@ -117,6 +117,6 @@ pins:
     ts_name: D4 - LS Output 4
   
   - pin: H3
-    meta: MM100_IN_AUX4_ANALOG
+    meta: MM100_IN_VBATT
     class: analog_inputs
     ts_name: Battery Voltage Input
